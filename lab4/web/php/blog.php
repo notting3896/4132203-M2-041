@@ -58,7 +58,7 @@ switch ($method) {
         //curl -X POST -d "title=My Blog&post=This is my first post" http://localhost:8080/php/blog.php
 
 
-    case 'DELETE': // Delete a blog
+    case 'DELETE': // Delete a blog.
         parse_str(file_get_contents("php://input"), $_DELETE);
         $id = $_DELETE['id'] ?? null;
 

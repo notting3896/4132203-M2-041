@@ -22,5 +22,5 @@ try {
 
     $response = ["status" => 500, "message" => "Error: " . $e->getMessage()];
 
-    //echo json_encode($response);
+    //echo json_encode($response)......;
 }
